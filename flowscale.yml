@@ -1,4 +1,4 @@
-version: 0
+version: 1
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -10,6 +10,31 @@ workflows:
     file: yete/basic_api.json
     skip_preprocess: true
     version: 0
+    inputs:
+      - path: 6.inputs.text
+        label: ''
+        parameter_name: text_21158
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 7.inputs.text
+        label: ''
+        parameter_name: text_49180
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 9.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_64677
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: ''
+        demo_type: image
 normal_workflows:
   - id: a6z3acyqsui
     name: basic.json
