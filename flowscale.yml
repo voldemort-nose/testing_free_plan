@@ -4,4 +4,8 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows: []
-normal_workflows: []
+normal_workflows:
+  - id: a6z3acyqsui
+    name: basic.json
+    file: yete/basic.json
+    version: 0
