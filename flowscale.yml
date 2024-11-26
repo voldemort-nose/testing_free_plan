@@ -3,7 +3,13 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows: []
+workflows:
+  - id: lm0cma3x45
+    name: basic_api.json
+    description: ''
+    file: yete/basic_api.json
+    skip_preprocess: true
+    version: 0
 normal_workflows:
   - id: a6z3acyqsui
     name: basic.json
