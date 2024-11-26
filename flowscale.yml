@@ -5,9 +5,9 @@ user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
   - id: lm0cma3x45
-    name: hey🚀_api.json
+    name: heyy_api.json
     description: ''
-    file: some/hey🚀_api.json
+    file: some/heyy_api.json
     skip_preprocess: true
     version: 5
     inputs:
@@ -37,6 +37,6 @@ workflows:
         demo_type: image
 normal_workflows:
   - id: a6z3acyqsui
-    name: hey🚀.json
-    file: some/hey🚀.json
+    name: heyy.json
+    file: some/heyy.json
     version: 5
