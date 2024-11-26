@@ -7,7 +7,7 @@ workflows:
   - id: lm0cma3x45
     name: testt_api.json
     description: ''
-    file: tettg🎉/testt_api.json
+    file: some/hello_api.json
     skip_preprocess: true
     version: 4
     inputs:
@@ -37,6 +37,6 @@ workflows:
         demo_type: image
 normal_workflows:
   - id: a6z3acyqsui
-    name: testt.json
-    file: tettg🎉/testt.json
+    name: hello.json
+    file: some/hello.json
     version: 4
