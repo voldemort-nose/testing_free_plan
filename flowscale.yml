@@ -5,11 +5,11 @@ user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
   - id: lm0cma3x45
-    name: hjsahgjlk_j_na;lal;k_33_api.json
+    name: testt_api.json
     description: ''
-    file: folder/hjsahgjlk_j_na;lal;k_33_api.json
+    file: folder/testt_api.json
     skip_preprocess: true
-    version: 3
+    version: 4
     inputs:
       - path: 6.inputs.text
         label: ''
@@ -37,6 +37,6 @@ workflows:
         demo_type: image
 normal_workflows:
   - id: a6z3acyqsui
-    name: hjsahgjlk_j_na;lal;k_33.json
-    file: folder/hjsahgjlk_j_na;lal;k_33.json
-    version: 3
+    name: testt.json
+    file: folder/testt.json
+    version: 4
