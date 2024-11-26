@@ -5,11 +5,11 @@ user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
   - id: lm0cma3x45
-    name: basic_api.json
+    name: my_name_si_nbwof_api.json
     description: ''
-    file: yete/basic_api.json
+    file: yete/my_name_si_nbwof_api.json
     skip_preprocess: true
-    version: 0
+    version: 1
     inputs:
       - path: 6.inputs.text
         label: ''
@@ -37,6 +37,6 @@ workflows:
         demo_type: image
 normal_workflows:
   - id: a6z3acyqsui
-    name: basic.json
-    file: yete/basic.json
-    version: 0
+    name: my_name_si_nbwof.json
+    file: yete/my_name_si_nbwof.json
+    version: 1
