@@ -7,7 +7,7 @@ workflows:
   - id: lm0cma3x45
     name: hey_api.json
     description: ''
-    file: yete/hey_api.json
+    file: folder/hey_api.json
     skip_preprocess: true
     version: 2
     inputs:
@@ -38,5 +38,5 @@ workflows:
 normal_workflows:
   - id: a6z3acyqsui
     name: hey.json
-    file: yete/hey.json
+    file: folder/hey.json
     version: 2
