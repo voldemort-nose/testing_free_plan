@@ -35,6 +35,10 @@ workflows:
     outputs:
       - label: ''
         demo_type: image
+  - id: kb5ae2esict
+    name: heyy.json
+    description: ''
+    file: some/heyy.json
 normal_workflows:
   - id: a6z3acyqsui
     name: heyy.json
